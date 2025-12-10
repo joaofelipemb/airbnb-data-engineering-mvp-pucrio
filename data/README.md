@@ -13,9 +13,12 @@ Aqui mantemos apenas arquivos **processados, leves** e todas as instruções par
 
 ## Estrutura do diretório
 data/
-  ->processed/
+
+processed/
     -neighbourhoods_rj.csv
-  -> README.md
+    -neighbourhoods_nyc.csv
+
+README.md
 
 ##  Links oficiais para download dos dados originais
 

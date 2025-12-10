@@ -13,12 +13,14 @@ Aqui mantemos apenas arquivos **processados, leves** e todas as instruções par
 
 ## Estrutura do diretório
 data/
+- **`data/README.md`**  
+  Explica o propósito da pasta, descreve os dados utilizados e os links oficiais para download.
 
-processed/
-    -neighbourhoods_rj.csv
-    -neighbourhoods_nyc.csv
-
-README.md
+- **`data/processed/`**  
+  Contém os arquivos já **convertidos do formato GeoJSON para CSV**, usados na etapa de análise geográfica:
+  - `neighbourhoods_rj.csv` — polígonos dos bairros do Rio de Janeiro  
+  - `neighbourhoods_nyc.csv` — polígonos dos bairros de New York City
+ 
 
 ##  Links oficiais para download dos dados originais
 

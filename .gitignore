@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.env
+venv/
+
+# Data (não versionar arquivos grandes)
+*.csv
+*.parquet

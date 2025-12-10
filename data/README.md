@@ -13,13 +13,9 @@ Aqui mantemos apenas arquivos **processados, leves** e todas as instruções par
 
 ## Estrutura do diretório
 data/
-│
-├── processed/
-│ ├── neighbourhoods_rj.csv
-│ ├── neighbourhoods_nyc.csv
-│ └── neighbourhoods.geojson (opcional — amostra leve)
-│
-└── README.md
+  ->processed/
+    -neighbourhoods_rj.csv
+  -> README.md
 
 ##  Links oficiais para download dos dados originais
 
@@ -58,10 +54,6 @@ Como parte do processamento realizado no notebook de engenharia de dados:
 - Estrutura similar à versão RJ  
 - Utilizada nos mapas e análises de localização
 
-### **(Opcional) `processed/neighbourhoods.geojson`**
-- Disponível apenas se desejar demonstrar o arquivo original antes da conversão
-
----
 
 ## Script utilizado para gerar os arquivos processados
 
@@ -75,9 +67,6 @@ O script responsável pela conversão de `.geojson` → `.csv` está em:
 - `notebooks/criacao_tabelas`  
   → gera as camadas **Bronze**, **Silver** e **Gold**
 
-5. (Opcional) **Executar as análises**:  
-- `notebooks/analise_qualidade_dados`  
-- `notebooks/analise_dados`
 
 Esses notebooks reproduzem todas as validações e análises do MVP.
 

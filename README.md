@@ -71,7 +71,7 @@ O projeto utiliza um **Esquema Estrela (Star Schema)**.
 * Para visualizar o diagrama ER completo, acesse: [data/data-model/diagram.pdf](data/data-model/diagram.pdf).
 * Para detalhes das tabelas e cardinalidades, leia: [data/data-model/README.md](data/data-model/README.md).
 
-O Catálogo de Dados completo das tabelas finais encontra-se em: [data/data_catalog.csv](data/data_catalog.xlsx).
+O Catálogo de Dados completo das tabelas finais encontra-se em: [data/data_catalog.xlsx](data/data_catalog.xlsx).
 
 ---
 

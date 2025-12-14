@@ -31,7 +31,8 @@ A organização dos arquivos segue a lógica do ciclo de vida dos dados:
 ├── notebooks/               # Pipeline de Engenharia e Análise (Databricks)
 │   ├── 01_criacao_tabelas.ipynb         # Ingestão, tratamento e criação (Bronze/Silver/Gold)
 │   ├── 02_analise_qualidade_dados.ipynb # QA, validação de completude e consistência
-│   └── 03_analise_dados.ipynb           # Análise exploratória e respostas ao negócio
+│   ├── 03_analise_dados.ipynb           # Análise exploratória e respostas ao negócio
+│   └── 03_analise_dados.html            # Versão HTML com mapas interativos renderizados
 │
 ├── scripts/                 # Scripts Python auxiliares
 │   └── geojson_to_csv.py    # Conversor de dados geoespaciais para tabular
@@ -60,6 +61,7 @@ Notebook final com SQL e visualizações Python respondendo às perguntas de neg
 * Correlação entre preço, ocupação e receita anual.
 * Análise geoespacial e comparação RJ vs NYC.
 
+> **Nota:** Como o GitHub não renderiza mapas interativos em arquivos `.ipynb`, disponibilizamos também a versão **`notebooks/03_analise_dados.html`**. Baixe este arquivo para visualizar os mapas geoespaciais completos.
 ---
 
 ## Modelagem de Dados

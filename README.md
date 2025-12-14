@@ -22,7 +22,7 @@ A organização dos arquivos segue a lógica do ciclo de vida dos dados:
 │   └── relatorio_final.pdf  # Relatório técnico completo do MVP
 │
 ├── data/                    # Metadados e dados auxiliares processados
-│   ├── data_catalog.csv     # Dicionário de dados da camada Gold
+│   ├── data_catalog.xlsx     # Dicionário de dados da camada Gold
 │   ├── processed/           # Arquivos CSV convertidos (GeoJSON -> CSV)
 │   └── data-model/          # Documentação da modelagem dimensional
 │       ├── diagram.pdf      # Diagrama Visual do Schema (ER)

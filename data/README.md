@@ -16,6 +16,9 @@ data/
 - **`data/README.md`**  
   Explica o propósito da pasta, descreve os dados utilizados e os links oficiais para download.
 
+- **`data/data-catalog.xslx`**  
+  Catálogo de dados que foram utilizados para a construção da camada Gold
+
 - **`data/processed/`**  
   Contém os arquivos já **convertidos do formato GeoJSON para CSV**, usados na etapa de análise geográfica:
   - `neighbourhoods_rj.csv` — polígonos dos bairros do Rio de Janeiro;  

@@ -271,7 +271,4 @@ Table fact_reviews {
 Ref: dim_hosts.host_id < dim_listings.host_id
 Ref: dim_neighbourhoods.neighbourhood < dim_listings.neighbourhood_cleansed
 Ref: dim_listings.listing_id < fact_calendar.listing_id
-Ref: dim_listings.listing_id < fact_reviews.listing_id
-
-
-Esses artefatos complementam a documentação e servem como evidência formal da etapa de modelagem do MVP.
+Ref: dim_listings.listing_id < fact_reviews.listing_i

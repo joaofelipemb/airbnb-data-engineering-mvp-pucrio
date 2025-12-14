@@ -199,6 +199,9 @@ Essa tabela permite análises sobre:
 - O diagrama conceitual do modelo está disponível em **PDF**, exportado do dbdiagram.io.
 - Na sequência, o script usado para a construção do modelo no dbdiagram.io:
 
+### Script do Modelo (DBML)
+
+```sql
 Table dim_hosts {
   city                     varchar
   host_id                  bigint [pk]

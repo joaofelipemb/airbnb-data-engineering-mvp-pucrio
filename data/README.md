@@ -18,8 +18,13 @@ data/
 
 - **`data/processed/`**  
   Contém os arquivos já **convertidos do formato GeoJSON para CSV**, usados na etapa de análise geográfica:
-  - `neighbourhoods_rj.csv` — polígonos dos bairros do Rio de Janeiro  
+  - `neighbourhoods_rj.csv` — polígonos dos bairros do Rio de Janeiro;  
   - `neighbourhoods_nyc.csv` — polígonos dos bairros de New York City
+
+ - **`data/data-model/`**  
+  Contém os arquivos referentes à **modelagem de dados**:
+  - `mvp_airbnb.pdf` — representação do diagrama em PDF gerado pelo dbdiagram.io;
+  - `README.md` — explica o modelo e fornece o script usado no dbdiagram.io para a construção visual do modelo.
  
 
 ##  Links oficiais para download dos dados originais
@@ -65,17 +70,6 @@ Como parte do processamento realizado no notebook de engenharia de dados:
 O script responsável pela conversão de `.geojson` → `.csv` está em:
 /scripts/geojson_to_csv.py
 
-
-3. **Subir os dados processados** para o Databricks (Unity Catalog / Volumes gerenciados)
-
-4. **Executar o notebook de criação de tabelas**:  
-- `notebooks/criacao_tabelas`  
-  → gera as camadas **Bronze**, **Silver** e **Gold**
-
-
-Esses notebooks reproduzem todas as validações e análises do MVP.
-
----
 
 ## Observação sobre reprodutibilidade
 

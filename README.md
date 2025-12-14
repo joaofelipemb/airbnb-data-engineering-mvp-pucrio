@@ -37,7 +37,7 @@ A organização dos arquivos segue a lógica do ciclo de vida dos dados:
 │   └── geojson_to_csv.py    # Conversor de dados geoespaciais para tabular
 │
 └── README.md                # Este arquivo
-
+```
 ## Arquitetura e Pipeline
 
 O projeto foi executado no **Databricks Community Edition** utilizando **Unity Catalog** para gerenciamento de volumes e tabelas Delta.

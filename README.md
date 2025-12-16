@@ -18,8 +18,8 @@ A organização dos arquivos segue a lógica do ciclo de vida dos dados:
 
 ```text
 ├── reports/                 # Documentação oficial do projeto
-│   ├── autoavaliacao.pdf    # Reflexão sobre o aprendizado e desafios
-│   └── relatorio_final.pdf  # Relatório técnico completo do MVP
+│   ├── autoavaliacao.md     # Reflexão sobre o aprendizado e desafios
+│   └── relatorio_final.md   # Relatório técnico completo do MVP
 │
 ├── data/                    # Metadados e dados auxiliares processados
 │   ├── data_catalog.md      # Dicionário de dados da camada Gold

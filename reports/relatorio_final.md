@@ -11,7 +11,7 @@
 
 Este projeto tem como objetivo a construção de um pipeline de Engenharia de Dados ponta a ponta (*End-to-End*) para analisar o mercado de aluguéis de curta temporada (*Short-Term Rentals* - STR). O foco principal é a cidade do **Rio de Janeiro**, utilizando **New York City** como base comparativa de um mercado maduro.
 
-A abordagem adotada foi híbrida, equilibrando a construção técnica de um Data Lakehouse com a entrega de valor analítico. O MVP buscou responder a perguntas fundamentais sobre performance de anúncios, precificação e impacto da profissionalização dos anfitriões (*hosts*).
+A abordagem adotada foi híbrida, equilibrando a construção técnica de um Data Lakehouse com a entrega de valor analítico. O MVP buscou responder a perguntas fundamentais sobre performance de anúncios, precificação e o impacto da localização nesse mercado.
 
 ## 2. Fonte de Dados e Arquitetura
 

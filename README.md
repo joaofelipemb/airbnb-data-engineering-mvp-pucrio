@@ -56,7 +56,7 @@ Notebook dedicado ao QA (*Quality Assurance*), contendo:
 * Diagnóstico de limitações do dataset original (ex: ausência de preços no calendário).
 
 ### 3. Análise de Negócio (`notebooks/03_analise_dados.ipynb`)
-Notebook final com SQL e visualizações Python respondendo às perguntas de negócio:
+Notebook final com SQL (para a criação dos dataframes analisados) e analises em Python respondendo às perguntas de negócio:
 * O que define um anúncio de alta performance?
 * Quais fatores influenciam o preço da diária e a receita estimada?
 * Como a localização afeta o preço, demanda e competitividade?

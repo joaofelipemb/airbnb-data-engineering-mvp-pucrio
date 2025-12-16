@@ -61,7 +61,7 @@ Notebook final com SQL e visualizações Python respondendo às perguntas de neg
 * Correlação entre preço, ocupação e receita anual.
 * Análise geoespacial e comparação RJ vs NYC.
 
-> **Nota:** Como o GitHub não renderiza mapas interativos em arquivos `.ipynb`, disponibilizamos também a versão **`notebooks/03_analise_dados.html`**. Baixe este arquivo para visualizar os mapas geoespaciais completos.
+> **Nota:** Como o GitHub não renderiza mapas interativos em arquivos `.ipynb`, está também disponível a versão **`notebooks/03_analise_dados.html`**. Baixe este arquivo para visualizar os mapas geoespaciais completos.
 ---
 
 ## Modelagem de Dados

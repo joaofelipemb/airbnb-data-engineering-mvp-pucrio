@@ -41,7 +41,7 @@ A organização dos arquivos segue a lógica do ciclo de vida dos dados:
 ```
 ## Arquitetura e Pipeline
 
-O projeto foi executado no **Databricks Community Edition** utilizando **Unity Catalog** para gerenciamento de volumes e tabelas Delta.
+O projeto foi executado no **Databricks Free Edition** utilizando **Unity Catalog** para gerenciamento de volumes e tabelas Delta.
 
 ### 1. Ingestão e Processamento (`notebooks/01_criacao_tabelas.ipynb`)
 Este notebook consolida todo o fluxo de engenharia:

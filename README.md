@@ -82,8 +82,14 @@ O Catálogo de Dados completo das tabelas finais encontra-se em: [data/data_cata
 * Python 3.x instalado localmente (apenas para o script auxiliar).
 
 ### Passos
-1.  **Preparação:**
-    * Baixe os dados do [Inside Airbnb](http://insideairbnb.com/get-the-data/) (Rio de Janeiro e NYC).
+1.  **Preparação dos Dados:**
+    * Acesse o [Inside Airbnb](http://insideairbnb.com/get-the-data/).
+    * Localize as seções do **Rio de Janeiro** e **New York City**.
+    * Baixe os seguintes arquivos para **ambas** as cidades (certifique-se de pegar a versão completa/detalhada):
+        * `listings.csv.gz` (Detailed Listings data)
+        * `calendar.csv.gz` (Detailed Calendar data)
+        * `reviews.csv.gz` (Detailed Reviews data)
+        * `neighbourhoods.geojson` (GeoJSON file)
     * Converta os arquivos `.geojson` usando o script `scripts/geojson_to_csv.py`.
     * Faça o upload dos CSVs para um Volume no Databricks.
 2.  **Execução:**

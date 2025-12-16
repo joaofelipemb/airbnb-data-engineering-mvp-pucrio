@@ -58,8 +58,8 @@ Notebook dedicado ao QA (*Quality Assurance*), contendo:
 ### 3. Análise de Negócio (`notebooks/03_analise_dados.ipynb`)
 Notebook final com SQL e visualizações Python respondendo às perguntas de negócio:
 * O que define um anúncio de alta performance?
-* Correlação entre preço, ocupação e receita anual.
-* Análise geoespacial e comparação RJ vs NYC.
+* Quais fatores influenciam o preço da diária e a receita estimada?
+* Como a localização afeta o preço, demanda e competitividade?
 
 > **Nota:** Como o GitHub não renderiza mapas interativos em arquivos `.ipynb`, está também disponível a versão **`notebooks/03_analise_dados.html`**. Baixe este arquivo para visualizar os mapas geoespaciais completos.
 ---

@@ -78,7 +78,7 @@ O Catálogo de Dados completo das tabelas finais encontra-se em: [data/data_cata
 ## Como Executar
 
 ### Pré-requisitos
-* Conta no [Databricks Community Edition](https://community.cloud.databricks.com/).
+* Conta no [Databricks Free Edition](https://www.databricks.com/learn/free-edition).
 * Python 3.x instalado localmente (apenas para o script auxiliar).
 
 ### Passos

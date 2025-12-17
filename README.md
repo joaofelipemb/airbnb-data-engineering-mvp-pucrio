@@ -17,9 +17,9 @@ O projeto consiste em um pipeline de dados ponta a ponta (*End-to-End*) para ana
 A organização dos arquivos segue a lógica do ciclo de vida dos dados:
 
 ```text
-├── reports/                 # Documentação oficial do projeto
-│   ├── autoavaliacao.md     # Reflexão sobre o aprendizado e desafios
-│   ├── relatorio_final.md   # Relatório técnico completo do MVP
+├── reports/                      # Documentação oficial do projeto
+│   ├── autoavaliacao.md          # Reflexão sobre o aprendizado e desafios
+│   ├── relatorio_final.md        # Relatório técnico completo do MVP
 │   └── evidencias_databricks.png # Screenshot com as tabelas e volumes criados dentro do Databricks.
 │
 ├── data/                    # Metadados e dados auxiliares processados
@@ -29,7 +29,7 @@ A organização dos arquivos segue a lógica do ciclo de vida dos dados:
 │       ├── diagram.pdf      # Diagrama Visual do Schema (ER)
 │       └── README.md        # Explicação detalhada das tabelas e relacionamentos
 │
-├── notebooks/               # Pipeline de Engenharia e Análise (Databricks)
+├── notebooks/                           # Pipeline de Engenharia e Análise (Databricks)
 │   ├── 01_criacao_tabelas.ipynb         # Ingestão, tratamento e criação (Bronze/Silver/Gold)
 │   ├── 02_analise_qualidade_dados.ipynb # QA, validação de completude e consistência
 │   ├── 03_analise_dados.ipynb           # Análise exploratória e respostas ao negócio

@@ -19,7 +19,8 @@ A organização dos arquivos segue a lógica do ciclo de vida dos dados:
 ```text
 ├── reports/                 # Documentação oficial do projeto
 │   ├── autoavaliacao.md     # Reflexão sobre o aprendizado e desafios
-│   └── relatorio_final.md   # Relatório técnico completo do MVP
+│   ├── relatorio_final.md   # Relatório técnico completo do MVP
+│   └── evidencias_databricks.png # Screenshot com as tabelas e volumes criados dentro do Databricks.
 │
 ├── data/                    # Metadados e dados auxiliares processados
 │   ├── data_catalog.md      # Dicionário de dados da camada Gold
